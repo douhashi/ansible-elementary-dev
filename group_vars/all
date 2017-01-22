@@ -1,0 +1,13 @@
+# user
+user: douhashi
+
+# zzet.rbenv
+rbenv_users: "{{ user }}"
+rbenv:
+  env: user
+  version: v1.1.0
+  default_ruby: 2.4.0
+  rubies:
+    - version: 2.4.0
+
+# mysql
